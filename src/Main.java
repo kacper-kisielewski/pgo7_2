@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Cat mruczek = new Cat("Mruczek");
+        mruczek.start();
+        System.out.println(mruczek.getType());
+        mruczek.stop();
     }
 }
